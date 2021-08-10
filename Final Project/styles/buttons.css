@@ -1,0 +1,29 @@
+.navigation-wrapper > .Right-column{
+    display: flex;
+    justify-content: center;
+    width: 545px;
+    position: relative;
+}
+.navigation-wrapper > .Right-column > .button-wrapper button{
+    background-color: #36383f;
+    color: white; 
+    padding: 10px 10px;
+    border: 1px #a9acac;
+    outline: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.navigation-wrapper > .Right-column > .button-wrapper > .btn i{
+    color:#4BCE79 ;
+    margin-right: 0px;
+    font-size: .75em;
+}
+
+.navigation-wrapper > .Right-column > .button-wrapper i {
+    color: #a9acac;
+    margin-right: 10px;
+    font-size: 2em;
+}

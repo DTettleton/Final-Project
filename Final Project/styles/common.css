@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+    color: white;
+}
+
+.spacer5 { 
+    height: 2px;
+    width: 100%;
+    background-color: #36383f;
+}
