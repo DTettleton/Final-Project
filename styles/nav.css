@@ -1,0 +1,109 @@
+.navigation-wrapper {
+    height: 100px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.navigation-wrapper > .left-column > .banner-immage {
+    display: flex;
+}
+.navigation-wrapper > .left-column > .banner-immage img{
+    height: 45px;
+    width: 250px;
+}
+
+.navigation-wrapper > .center-column {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 700px;
+    margin-right: 450px;
+}
+
+.navigation-wrapper > .center-column ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.navigation-wrapper > .center-column ul li {
+    display: inline-block;
+}
+
+.navigation-wrapper > .center-column ul li a {
+    line-height: 80px;
+    font-size: 2.1em;
+}
+
+.navigation-wrapper > .center-column ul li::after {
+    content: '';
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+}
+
+.navigation-wrapper > .center-column > ul .pens a::before {
+    content: "explore";
+    text-transform: uppercase;
+    color: #f4e17f;
+    position: absolute;
+    font-size: 1.25rem;
+    display: block;
+    line-height: 20px;
+    top: 15px;
+}
+
+.navigation-wrapper > .center-column > ul .pens a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navigation-wrapper > .center-column > ul .projects a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.navigation-wrapper > .center-column > ul .posts a {
+    display: inline-block;
+    text-decoration: none;
+    color: white; 
+    margin-right: 20px;   
+}
+
+.navigation-wrapper > .center-column > ul .collections a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;   
+    margin-right: 20px;  
+}
+
+.navigation-wrapper > .center-column > ul .spark a{
+    display: inline-block;
+    text-decoration: none;
+    color: #a9acac;     
+}
+
+.navigation-wrapper > .center-column > ul .spark i{
+    color: #a9acac;
+}
